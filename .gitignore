@@ -1,0 +1,16 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+.idea/
+.ipynb_checkpoints/
+MT_NN/train_mt/
+MT_NN/test_mt/
+dataset/
+dataset_reg/
+data/
+images/
+C:\datasets\
+*.tar
+*.pth
+.DS_Store

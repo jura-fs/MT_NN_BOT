@@ -19,11 +19,11 @@ if not os.path.exists(dir_out):
 os.makedirs(os.path.join(dir_out, 'train_mt'), exist_ok=True)
 os.makedirs(os.path.join(dir_out, 'test_mt'), exist_ok=True)
 
-Rudeus = [pygame.image.load(f'/Users/jurasik/Downloads/character/rudeus_{i}.png').convert_alpha()
+Rudeus = [pygame.image.load(f'ваш путь к папке с фото{i}.png').convert_alpha()
           for i in range(9)]
-Eris = [pygame.image.load(f'/Users/jurasik/Downloads/character/Eris_{i}.png').convert_alpha()
+Eris = [pygame.image.load(f'ваш путь к папке с фото{i}.png').convert_alpha()
         for i in range(10)]
-Sylphiette = [pygame.image.load(f'/Users/jurasik/Downloads/character/Sylphiette_{i}.png').convert_alpha()
+Sylphiette = [pygame.image.load(f'ваш путь к папке с фото{i}.png').convert_alpha()
               for i in range(15)]
 
 characters = {
@@ -32,7 +32,7 @@ characters = {
     2: Sylphiette
 }
 
-backs = [pygame.image.load(f'/Users/jurasik/Downloads/backs/backs_{n}.jpeg') for n in range(total_bk)]
+backs = [pygame.image.load(f'ваш путь к папке с фото для фона{n}.jpeg') for n in range(total_bk)]
 
 
 def augment_char(char_img):
